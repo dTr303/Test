@@ -22,7 +22,7 @@ function Get-Hello {
         [Parameter(Mandatory = $false)]
         [string] $UserPrincipalName
     )
-    Return "Hello"
+    Return "Hello2"
 }
 
 #Export-ModuleMember -Function 'Get-Hello'
